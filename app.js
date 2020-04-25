@@ -7,7 +7,7 @@ const path = require('path');
 const app = express();
 const port = process.env.PORT || 3000;
 const artist = "The Beatles";
-const mongodb_uri = "mongodb+srv://mark:test@cluster0-4o6jo.azure.mongodb.net/test?retryWrites=true&w=majority";
+const mongodb_uri = "mongodb+srv://[username]:[password]@[url to mongodb database]/test?retryWrites=true&w=majority";
 
 // Load View Engine and set its working paths
 app.set('view engine', 'pug')
