@@ -1,2 +1,2 @@
 # mongodbtest
-This repository if for deploying a MongoDB Test Application to Heroku.
+This repository is for deploying a MongoDB Test Application to Heroku.
