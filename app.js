@@ -5,7 +5,7 @@ const path = require('path');
 
 // Application variables
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 const artist = "The Beatles";
 const mongodb_uri = "mongodb+srv://mark:test@cluster0-4o6jo.azure.mongodb.net/test?retryWrites=true&w=majority";
 
